@@ -1,0 +1,90 @@
+@media screen and (min-width: 200px) and (max-width: 480x){
+    header h1{
+      padding: .25em;
+      text-align: center;
+    }
+    .menu{
+      font-size: 1.3em;
+      width: 80%;
+      margin:0 auto;
+    }
+    .menu ul{
+      margin: 0;
+      padding: .1em;
+    }
+    .menu li{
+      background-color: pink;
+      border-radius: 1em;
+      list-style-type: none;
+      width: 100%;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+    .menu a{
+      display: inline-block;
+      padding: .8em;
+      width: 100%;
+      text-decoration: none;
+    }
+  
+  }
+  
+  
+  @media screen and (min-wdith: 481px) and (max: 768px){
+    header h1{
+      padding: .6em;
+      text-align: center;
+    }
+    #menu{
+      background-color: pink;
+      font-size: 1.4em;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    #menu ul{
+      margin: 0;
+      padding: 0;
+    }
+    #menu li{
+      display: inline;
+    }
+    #menu a{
+      display: inline-block;
+      padding: 1em;
+      text-decoration: none;
+    }
+  
+  }
+  @media screen and (min-width:769px){
+    header{
+      padding: .35em;
+      width: 100%;
+      overflow: hidden;
+   }
+   header h1{
+    display: inline;
+   }
+   nav{
+    float: right;
+   }
+   nav ul{
+    margin: 0;
+    display: inline;
+    padding-right: .15em;
+   }
+   nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: .36em 1em;
+  }
+  nav ul li a{
+    text-decoration: none;
+    padding: 1em;
+    display:block;
+    color: lightblue;
+    line-height: 2em;
+  }
+
+  }
+  
